@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Кликер</title>
+    <body bgcolor="#C0C0C0">
+    <p bgcolor="#0000FF">
+</head>
+<body>
+    <center>
+        <img src="bttn-red.png" width="500" height="500" onclick=up1()>
+        <font size="50px" face="fantasy" color="#D2691E">
+            <p id=info>
+                0
+            </p>
+        </font>
+    </center>
+    <script>
+        var score = 0;
+        function up1()
+        {
+            score ++;
+            document.getElementById("info").innerHTML=score+" ";
+        }
+    </script>
+</body>
+</html>
